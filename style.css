@@ -1,0 +1,12 @@
+ul{
+    list-style: none;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.ms-bg-darkblue{
+    background-color: #2C3E50;
+}
