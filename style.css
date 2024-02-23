@@ -14,3 +14,15 @@ a{
 .ms-bg-watergreen{
     background-color: #1ABC9C;
 }
+
+.ms-bg_watergreen{
+    color: #1ABC9C;
+}
+
+footer {
+    background-color: #3a546d;
+}
+
+footer .favicon i{
+    color: white;
+}

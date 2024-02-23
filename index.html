@@ -1,87 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="ms-bg-darkblue p-1">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="ms-bg-darkblue p-1">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center text-white">
+                    <h1 class="fs-5">START BOOTSTRAP</h1>
+                    <nav>
+                        <ul class="d-flex gap-3 fw-bold mt-3">
+                            <li><a href="#">POERTFOLIO</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="ms-bg-watergreen text-white py-4">
+                <div class="container text-center">
+                    <div class="mb-3 col-2 offset-5"><img src="./img/avatar.svg" alt="men"></div>
+                    <h1 class="fs-1">START BOOTSTRAP</h1>
+                    <p class="fs-6 fw-bold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                </div>
+            </section>
+
+            <section class="portfolio">
+                <div class="container py-5">
+                    <h1 class="fs-2 fw-bold text-center mb-4">PORTFOLIO</h1>
+                    <div class="row g-3">
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ms-bg-watergreen text-white">
+                <div class="container p-5">
+                    <h1 class="text-center fs-2 fw-semibold mb-4">ABOUT</h1>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex cupiditate eum quo impedit suscipit culpa neque optio facere quis? Blanditiis maxime, accusantium a magnam doloremque repellendus ipsum libero doloribus unde.</p>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex cupiditate eum quo impedit suscipit culpa neque optio facere quis? Blanditiis maxime, accusantium a magnam doloremque repellendus ipsum libero doloribus unde.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="container p-5">
+                    <h1 class="text-center fs-2 fw-semibold">CONTACT ME</h1>
+                </div>
+            </section>
+        </main>
+
+    <footer class="py-4 text-white">
         <div class="container">
-            <div class="d-flex justify-content-between align-items-center text-white">
-                <h1 class="fs-5">START BOOTSTRAP</h1>
-                <nav>
-                    <ul class="d-flex gap-3 fw-bold mt-3">
-                        <li><a href="#">POERTFOLIO</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
+            <div class="row g-3">
+                <div class="left col-sm-12 col-md-6 col-lg-4">
+                    <p class="fs-5 text-center">LOCATION</p>
+                    <p class="text-center">2215 John Daniel Drive Clark, MO 54243</p>
+                </div>
+                <div class="center col-sm-12 col-md-6 col-lg-4">
+                    <p class="fs-5 text-center">AROUND THE WEB</p>
+                    <div class="favicon d-flex g-3 text-center">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-google-plus"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="right col-sm-12 col-md-6 col-lg-4">
+                    <p class="fs-5 text-center">ABOUT FREELANCER</p>
+                    <p class="text-center">Frelance is a free to use, open source Bootstrap theme created by <a class="ms-bg_watergreen fw-semibold" href="#">Start Bootstrap</a>.</p>
+                </div>
             </div>
         </div>
-    </header>
+    </footer>
 
-    <main>
-        <section class="ms-bg-watergreen text-white py-4">
-            <div class="container text-center">
-                <div class="mb-3 col-2 offset-5"><img src="./img/avatar.svg" alt="men"></div>
-                <h1 class="fs-1">START BOOTSTRAP</h1>
-                <p class="fs-6 fw-bold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-            </div>
-        </section>
-
-        <section class="portfolio">
-            <div class="container py-5">
-                <h1 class="fs-2 fw-bold text-center mb-4">PORTFOLIO</h1>
-                <div class="row g-3">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sequi similique, reprehenderit alias maiores cum perferendis repellat, architecto eveniet earum aspernatur dicta maxime voluptate dolorum esse ipsa vitae atque quam?</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="ms-bg-watergreen text-white">
-            <div class="container p-5">
-                <h1 class="text-center fs-2 fw-semibold mb-4">ABOUT</h1>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex cupiditate eum quo impedit suscipit culpa neque optio facere quis? Blanditiis maxime, accusantium a magnam doloremque repellendus ipsum libero doloribus unde.</p>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex cupiditate eum quo impedit suscipit culpa neque optio facere quis? Blanditiis maxime, accusantium a magnam doloremque repellendus ipsum libero doloribus unde.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <div class="container p-5">
-                <h1 class="text-center fs-2 fw-semibold">CONTACT ME</h1>
-            </div>
-        </section>
-
-        
-    </main>
+    <section class="ms-bg-darkblue p-2 d-flex align-items-center justify-content-center text-white">
+        <p class="fs-6">Copyright @ Your Website 2019</p>            
+    </section>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
-</html>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
