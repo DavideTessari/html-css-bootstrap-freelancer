@@ -19,6 +19,60 @@ a{
     color: #1ABC9C;
 }
 
+.ms-contact-form input {
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    opacity: 0.2;
+}
+
+hr {
+    margin-top: 100px;
+}
+
+.ms-contact-form-message input {
+    border: none;
+}
+
+.btn-primary {
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+}
+
+.ms-btn {
+    background-color: #1ABC9C;
+    border-color: white;
+}
+
+.ms-background-image {
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white; 
+    opacity: 0;
+}
+
+.ms-background-image:hover {
+    background-color: #1ABC9C;
+    opacity: 0.7;
+}
+
+.ms-background-image:hover i {
+    opacity: 1;
+}
+
+.pippo {
+    width: 30px;
+    height: 3px;
+    color: black;
+}
+
 footer {
     background-color: #3a546d;
 }
@@ -29,3 +83,26 @@ footer .circle {
     border: 1px solid white;
     border-radius: 50%;
 }
+
+.line-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bar {
+    width: 100%;
+    max-width: 100px;
+    height: 2px;
+    background-color: white; 
+    margin: 0 20px; 
+  }
+
+  .bar-primary {
+    background-color: black;
+  }
+  
+  .stars {
+    color: white;
+  }
+  
